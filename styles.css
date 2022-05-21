@@ -36,19 +36,7 @@ footer {
     margin-top: 40px;
 }
 
-.intro {
-    padding: 15px;
-}
-
-.skills {
-    padding: 15px;
-}
-
-.accom {
-    padding: 15px;
-}
-
-.proj {
+.intro, .skills, .accom, .proj {
     padding: 15px;
 }
 
