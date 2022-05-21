@@ -51,3 +51,7 @@ footer {
 .proj {
     padding: 15px;
 }
+
+a {
+    text-decoration: none;
+}
