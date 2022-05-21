@@ -1,0 +1,57 @@
+img.mypic {
+    border-radius: 50%;
+}
+
+body {
+    background-color: #EAF6F6;
+    margin: 0;
+}
+
+h1 {
+    color: #66bfbf;
+}
+
+h3 {
+    color: #66bfbf;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+}
+
+.bio {
+    text-align: left;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(238, 226, 190);
+    margin: 0;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.intro {
+    padding: 15px;
+}
+
+.skills {
+    padding: 15px;
+}
+
+.accom {
+    padding: 15px;
+}
+
+.proj {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
