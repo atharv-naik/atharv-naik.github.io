@@ -30,6 +30,7 @@ footer {
 
 .intro, .bio, .skills, .accom, .proj {
     padding: 0.6%;
+    padding-left: 1em;
 }
 
 .intro {
