@@ -5,13 +5,10 @@ img.mypic {
 body {
     background-color: #EAF6F6;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    color: #66bfbf;
-}
-
-h3 {
+h1, h3 {
     color: #66bfbf;
 }
 
@@ -19,25 +16,27 @@ hr {
     border-style: none;
     border-top-style: dotted;
     border-color: grey;
-    border-width: 5px;
-    width: 10%;
-}
-
-.bio {
-    text-align: left;
-    padding: 15px;
+    border-width: 0.2em;
+    width: 10vw;
 }
 
 footer {
     text-align: center;
     background-color: rgb(238, 226, 190);
     margin: 0;
-    padding: 15px;
+    padding: 0.6%;
     margin-top: 40px;
 }
 
-.intro, .skills, .accom, .proj {
-    padding: 15px;
+.intro, .bio, .skills, .accom, .proj {
+    padding: 0.6%;
+}
+
+.intro {
+    background-color: #EAF6F6;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
 }
 
 a {
