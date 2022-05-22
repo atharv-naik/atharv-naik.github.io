@@ -34,10 +34,7 @@ footer {
 }
 
 .intro {
-    background-color: #EAF6F6;
     border-bottom: 1px solid grey;
-    position: sticky;
-    top: 0;
 }
 
 a {
