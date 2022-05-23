@@ -6,6 +6,8 @@ body {
     background-color: #EAF6F6;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h3 {
@@ -33,10 +35,88 @@ footer {
     padding-left: 1em;
 }
 
+.heading {
+    border-bottom: 1px solid #66bfbf;
+    width: 15rem;
+}
+
 .intro {
-    border-bottom: 1px solid grey;
+    padding: 0.6%;
+    padding-left: 1em;
+    display: flex;
+    background-color: #EAF6F6;
+}
+
+.profile-pic {
+    margin: auto 1em;
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover, img:hover {
+    text-decoration: underline;
+    transform: scale(1.03);
+    transition: 0.1s;
+}
+
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 1em;
+}
+
+
+.one, .three {
+    border-bottom: 1px dotted #66bfbf;
+    border-width: 0.1em;
+    height: 1px;
+    width: 40vw;
+    flex-grow: 1;
+}
+
+.two {
+    border-bottom-style: dotted;
+    border-color: grey;
+    border-width: 0.2em;
+    height: 1px;
+    width: 10vw;
+}
+
+.name {
+    width: 100%;
+    top: 0;
+    padding: 0.1em 0;
+    border-bottom: 1px solid #66bfbf;
+    width: 30vw;
+}
+
+@media (max-width: 630px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-pic {
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+
+    .name {
+        width: 100%;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        padding: 0.1em 0;
+        border-bottom: 1px solid #66bfbf;
+        max-width: 80vw;
+    }
 }
