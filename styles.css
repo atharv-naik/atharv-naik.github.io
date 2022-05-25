@@ -3,7 +3,7 @@ img.mypic {
 }
 
 body {
-    background-color: #EAF6F6;
+    background-color: #F1EEE9;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -11,23 +11,33 @@ body {
 }
 
 h1, h3 {
-    color: #66bfbf;
+    color: #15133C;
+    font-weight: bold;
+}
+
+.heading-featured {
+    color: #92B4EC;
 }
 
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: grey;
+    border-color: #15133C;
     border-width: 0.2em;
     width: 10vw;
 }
 
 footer {
     text-align: center;
-    background-color: rgb(238, 226, 190);
+    background-color: #15133C;
+    color: white;
     margin: 0;
     padding: 0.6%;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro, .bio, .skills, .accom, .proj {
@@ -36,7 +46,7 @@ footer {
 }
 
 .heading {
-    border-bottom: 1px solid #66bfbf;
+    border-bottom: 1px solid #15133C;
     width: 15rem;
 }
 
@@ -44,7 +54,7 @@ footer {
     padding: 0.6%;
     padding-left: 1em;
     display: flex;
-    background-color: #EAF6F6;
+    /* background-color: #EAF6F6; */
 }
 
 .profile-pic {
@@ -55,9 +65,9 @@ a {
     text-decoration: none;
 }
 
-a:hover, img:hover {
+a:hover, .social-media img:hover {
     text-decoration: underline;
-    transform: scale(1.03);
+    transform: scale(1.09);
     transition: 0.1s;
 }
 
@@ -68,8 +78,9 @@ a:hover, img:hover {
     padding: 0 1em;
 }
 
+
 .one, .three {
-    border-bottom: 1px dotted #66bfbf;
+    border-bottom: 1px dotted #15133C;
     border-width: 0.1em;
     height: 1px;
     width: 40vw;
@@ -78,7 +89,7 @@ a:hover, img:hover {
 
 .two {
     border-bottom-style: dotted;
-    border-color: grey;
+    border-color: #15133C;
     border-width: 0.2em;
     height: 1px;
     width: 10vw;
@@ -88,8 +99,24 @@ a:hover, img:hover {
     width: 100%;
     top: 0;
     padding: 0.1em 0;
-    border-bottom: 1px solid #66bfbf;
+    border-bottom: 1px solid #15133C;
     width: 30vw;
+}
+
+.social-media-icons {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.social-media-icons {
+    padding: 0 0.15rem;
+}
+
+#github-icon {
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
 }
 
 @media (max-width: 630px) {
@@ -115,7 +142,6 @@ a:hover, img:hover {
         display: flex;
         justify-content: center;
         padding: 0.1em 0;
-        border-bottom: 1px solid #66bfbf;
         max-width: 80vw;
     }
 }
