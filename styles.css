@@ -58,6 +58,8 @@ footer {
 
 .profile-pic {
     margin: auto 1em;
+    height: 10rem;
+    width: 10rem;
 }
 
 a {
