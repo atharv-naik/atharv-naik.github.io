@@ -14,86 +14,198 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ec5245fd47.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
 
-    <div class="intro">
-        <div class="profile-pic">
-            <img src="images/linkedin_profile_pic3.jpg" alt="My Profile Pic" class="mypic" title="Atharv Naik" height="150">
+    <div class="container">
+        <div class="intro">
+            <div class="profile-pic">
+                <img src="images/linkedin_profile_pic3.jpg" alt="My Profile Pic" class="mypic" title="Atharv Naik" height="150">
+            </div>
+            <div class="about">
+                <h1 class="name">Atharv Naik /></h1>
+                <span>
+                    <span class="tag">Web Developer</span>
+                    <span class="tag">AI/ML</span>
+                </span>
+            </div>
         </div>
-        <div class="about">
-            <h1 class="name">Atharv Naik</h1>
-            <p class="education">BS-MS, Indian Institute of Science Education and Research, Kolkata, 2025 (Expected)
-            <div class="research-interests"><strong>Research Interests : <br></strong>Algorithm Design, Machine Learning, NLP, Cryptography & Cybersecurity</div></p>
-        </div>
-    </div>
-    <div class="line">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
-    </div>
-
-    <div class="bio">
-        <p>I'm currently an undergraduate student at IISER Kolkata pursuing a minor in Computer Science and a major in Chemistry. Being a Competitive Programmer, I love to solve algorithmic problems. Keenly interested in the development of AI and ML systems. Like statistics and solving abstract math problems. Also done some backend development using Django. Looking to learn more cool stuff by applying my knowledge to real world projects!</p>
-    </div>
-
-    <hr>
-
-    <div class="skills">
-        <h3 class="heading">Skills</h3>
-        <ul>
-            <li>Python</li>
-            <li>Datastructures & Algorithms</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bootstrap</li>
-            <li>C++</li>
-            <li>C</li>
-            <li>Javascript</li>
-        </ul>
-    </div>
+        <br>
     
-    <hr>
+        <div class="bio">
+            ~$ ./about.sh <br><br>
+            <span class="about-me-write-up">Hello! 👋 I'm an undergrad student at IISER Kolkata, majoring. I love building scalable backend systems with Django and Flask. Also, passionate about AI/ML and eager to apply knowledge in real-world projects!</span>
+        </div>
 
-    <div class="proj">
-        <h3 class="heading">Projects</h3>
-        <li><strong>Chess Engine in Python</strong></li>
-            <ul>
-                <li>Currently working on the frontend of the game using the pygame module in python</li>
-                <li>Collaborative project of two</li>
-                <li><a href="https://github.com/atharv-naik/chess-engine">Github link</a></li>
-            </ul>
-        <li><strong>Password Manager</strong></li>
-            <ul>
-                <li>Created a simple command line interface with Python that encrypts and decrypts strings (passwords) with one master-password and writes to files</li>
-                <li><a href="https://github.com/atharv-naik/password-manager">Github link</a></li>
-            </ul>
 
-    </div>
+        <div class="exp">
+            <h3 class="heading">Experience /></h3>
+            <div class="experience">
+                <div class="experience-details">
+                    <strong>Django Developer Intern</strong>
+                    <ul>
+                        <li>SMC <span class="tag-word">Backend upgradation</span> project under the guidance of Dr. Dwaipayan Roy, CDS Department IISER Kolkata</li> <br>
+                        <li>– Upgraded the <span class="tag-word">Mess SMC API</span>, incorporating endpoints for student usage analytics</li>
+                        <li>– Payment gateway integration using <span class="tag-word">Stripe API</span> and handling account balance and transaction history</li>
+                        <li>– Implemented endpoints to generate and email PDF Statements of Account.</li>
+                        <li>– Contributed to the backend design and implementation for seamless credit and debit processes</li>
+                        <li>– Writing <span class="tag-word">Unit Tests</span> for the API endpoints</li>
+                    </ul>
+                </div>
+                <div class="experience-dates">
+                    <span class="date">April 2023 - Present</span>
+                </div>
+                <span class="timeline-bar"></span>
+            </div>
+            
+            <div class="experience">
+                <div class="experience-details">
+                    <strong>Data Science Intern</strong>
+                    <ul>
+                        <li>Summer project on <span class="tag-word">Audio Data Analysis of Speech Data</span> under the guidance of Dr. Haroon Rashid Lone, SIRL lab, Department of EECS, IISER Bhopal.</li> <br>
+                        
+                        <li>– Collaborated with a multidisciplinary team working on video, audio, and text aspects of the project.</li>
+                        <li>– Conducted data analysis on a video dataset of 119 participants to predict <span class="tag-word">social anxiety</span> using their speech data.</li>
+                        <li>– Developed a feature extraction pipeline to prepare data for analysis.</li>
+                        <li>– Established a collaborative environment by setting up a <span class="tag-word">Samba server</span> for concurrent access to participant data by multiple teams.</li>
+                        <li>– Explored and selected relevant audio features for <span class="tag-word">emotion detection</span>, focusing on anxiety.</li>
+                        <li>– Implemented noise reduction techniques, including <span class="tag-word">low-pass filters</span> and <span class="tag-word">spectral grating</span>, to enhance audio quality.</li>
+                        <li>– Trained <span class="tag-word">Random Forest</span> and <span class="tag-word">SVM</span> classifiers on the extracted features, achieving an F1 score of 0.85.</li>
+                    </ul>
+                </div>
+                <div class="experience-dates">
+                    <span class="date">May 2023 - July 2023</span>
+                </div>
+                <span class="timeline-bar"></span>
+        </div>
+        </div>
+            
 
-    <hr>
 
-    <div class="accom">
-        <h3 class="heading">Accomplishments & Certifications</h3>
-        <li>Competetive coder on Codechef (1716 max)</li>
-        <li>Intermediate Machine Learning - Kaggle (<a href="https://www.kaggle.com/learn/certification/naikatharv/intermediate-machine-learning">Certificate</a>)</li>
-        <li>Intro to Machine Learning - Kaggle (<a href="https://www.kaggle.com/learn/certification/naikatharv/intro-to-machine-learning">Certificate</a>)</li>
-        <li>Python (Basic) - HackerRank (<a href="https://www.hackerrank.com/certificates/iframe/cc0cec552ead">Certificate</a>)</li>
-        <li>Problem Solving (Basic) - HackerRank (<a href="https://www.hackerrank.com/certificates/iframe/68950fabdbe7">Certificate</a>)</li>
-        <li>Algorithmic Toolbox - Coursera (<a href="https://coursera.org/share/9481c3b5f551d3ad04da1b738c75df92">Certificate</a>)</li>
+        <div class="proj">
+            <h3 class="heading">Projects /></h3>
+            <div class="project">
+                <div class="project-details">
+                    <strong>PlayTube: A VOD streaming platform in Django</strong><a target="_blank" href="http://139.59.29.80/" class="tag-small">View Deployment</a>
+                    <ul>
+                        <li>Built and deployed a video streaming web app in <span class="tag-word">Django</span></li>
+                        <li>Developed video upload, transcoding, and streaming using Celery workers and <span class="tag-word">Amazon S3</span> storage.</li>
+                        <li>Integrated user authentication with social login (Google) via django-allauth.</li>
+                        <li>Enhanced user experience with custom HTML email notifications and watch history for video resuming.</li>
+                        <li>Achieved efficient content delivery through <span class="tag-word">ABS streaming</span> and <span class="tag-word">Redis</span> queue for asynchronous transcoding. </li>
+                    </ul>
+                </div>
+                <div class="project-img">
+                    <img src="https://files.merca20.com/uploads/2022/07/Netflix-plan-anuncios-precios.jpeg" width="150px" alt="">
+                    <a title="Show Project" target="_blank" href="https://github.com/atharv-naik/PlayTube"><div class="view"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 0 24 24" width="28px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-details">
+                    <strong>
+                        Detection of Blue Whale A-Calls from Audio Signals</strong>
+                    <ul>
+                        <li>Trained a <span class="tag-word">CNN</span> model to classify blue whale calls into an A-call or not</li>
+                        <li>Extracted audio features from 26 thousand audio files for training</li>
+                        <li>Deployed the trained model in a <span class="tag-word">Docker</span> container with <span class="tag-word">Flask</span> backend</li>
+                    </ul>
+                </div>
+                <div class="project-img"><img src="https://globalnews.ca/wp-content/uploads/2022/10/2022-TELUS-World-of-Science-Out-of-the-Depths-Event-Listing-900x600-1.png" width="100px" alt="">
+                    <a title="Show Project" target="_blank" href="https://github.com/atharv-naik/whale-call-classification"><div class="view"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 0 24 24" width="28px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div></a>
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="project-details">
+                    <strong>
+                        Chess Engine in Python</strong>
+                    <ul>
+                        <li>A chess game implementation in <span class="tag-word">Pygame</span> library</li>
+                        <li>The algorithm detects Checks and checkmate</li>
+                        <li>Used <span class="tag-word">Stack</span> Datastructure to implement the undo/redo move feature</li>
+                        <li>Game can be saved and resumed later</li>
+                </div>
+                <div class="project-img"><img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpJfHzcl.png" width="100px" alt="">
+                    <a title="Show Project" target="_blank" href="https://github.com/atharv-naik/chess-engine"><div class="view"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 0 24 24" width="28px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="skills">
+            <h3 class="heading">Skills /></h3>
+            <div class="skills-container">
+                <!-- <span>Django</span>
+                <span>Deep Learning</span>
+                <span>Data Science</span>
+    class="django-img"
+                <span>C++</span>
+                <span>C</span>
+                <span>Javascript</span>
+    
+                <span>AWS</span>
+                <span>Docker</span>
+                <span>React</span> -->
+                <div class="skill django">
+                    <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="80px">
+                </div>
+                <div class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Javascript" width="100px">
+                </div>
+                <div class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg" alt="Linux" width="100px">
+                </div>     
+                <div class="skill">
+                    <img src="https://www.seekpng.com/png/full/328-3284428_copyright-2017-facebook-inc-aws-logo.png" alt="AWS" width="100px">
+                </div>
+                <div class="skill">
+                    <img src=https://karibbeankrib.com/wp-content/uploads/2021/05/Docker-Logo.png" alt="Docker" width="100px">
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/python-14-569257.png" alt="Python" width="100px">
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" alt="C" width="100px">
+                </div>
+                <div class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="100px">
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/neural-networks-2903215-2408323.png?f=avif&w=256" alt="Deep Learning" width="100px">
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-react-1-282599.png?f=avif&w=256" alt="ReactJS" width="100px">
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <!-- <div class="accom">
+            <h3 class="heading">Accomplishments & Certifications /></h3>
+            <li>Competetive coder on Codechef (1716 max)</li>
+            <li>Intermediate Machine Learning - Kaggle (<a href="https://www.kaggle.com/learn/certification/naikatharv/intermediate-machine-learning">Certificate</a>)</li>
+            <li>Intro to Machine Learning - Kaggle (<a href="https://www.kaggle.com/learn/certification/naikatharv/intro-to-machine-learning">Certificate</a>)</li>
+            <li>Python (Basic) - HackerRank <a href="https://www.hackerrank.com/certificates/iframe/cc0cec552ead"><span><i class="fa-solid fa-link"></i></span></a></li>
+            <li>Problem Solving (Basic) - HackerRank <a href="https://www.hackerrank.com/certificates/iframe/68950fabdbe7">Certificate</a></li>
+            <li>Algorithmic Toolbox - Coursera (<a href="https://coursera.org/share/9481c3b5f551d3ad04da1b738c75df92">Certificate</a>)</li>
+        </div> -->
     </div>
 
 </body>
-<footer>
-    <h3 class="heading-featured">Contact Me</h3>
+<div class="footer-container">
+    <div class="footer">
+    <h3 class="heading-featured">Contact Me /></h3>
     <div class="social-media">
         <a href="https://www.linkedin.com/in/atharvnaik317/" target="_blank" title="Linkedin"><img class="social-media-icons" id="linkedin-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" alt="linkedin"></a>
         <a href="https://github.com/atharv-naik" target="_blank" title="Github"><img class="social-media-icons" id="github-icon" src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png" alt="Github"></a>
         <a href="https://www.codechef.com/users/atharv317" target="_blank" title="Codechef"><img src="https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg" alt="Codechef-profile" class="social-media-icons" id="codechef-icon"></a>
     </div>
-    <p><span><i class="fa-solid fa-envelope"></i></span> - atharvn317@gmail.com | naa20ms195@iiserkol.ac.in</p>
+    <p class="email"><span><i class="fa-solid fa-envelope"></i></span> - atharvn317@gmail.com</p>
     <p><span>&#169;</span> 2023 Atharv Naik</p>
-</footer>
+</div>
+</div>
 
 </html>
