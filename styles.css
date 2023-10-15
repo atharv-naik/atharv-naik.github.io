@@ -184,6 +184,7 @@ li {
     border-radius: 50px;
     margin: 0 1rem 1rem 0;
     font-family: monospace;
+    white-space: nowrap;
 }
 
 .experience {
@@ -226,6 +227,30 @@ li {
     aspect-ratio: 3/2;
     border-radius: 20px;
     background-color: #444444;
+}
+
+.bullets {
+    font-size: 0.9rem;
+    color: #ccc;
+    line-height: 1.5rem;
+}
+
+.bullets li::before {
+    content: '•';
+    color: #ccc;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 1em;
+    scale: 2;
+}
+
+.bullet__text {
+    display: inline-block;
+    margin-left: 1em;
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
 }
 
 .view {
